@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Black background */
+    color: #0f0c0c; /* White text */
+}
+
+/* Header */
+header {
+    background-color: #ff4d4d; /* Light red header */
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px; /* Adjust the logo size */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 10px 0 0;
+    color: #ffffff; /* White text for the name */
+}
+
+/* Navigation Menu */
+nav a {
+    text-decoration: none;
+    color: #ffffff; /* White navigation links */
+    font-size: 1.2em;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ffcccb; /* Lighter red on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section#portfolio ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#portfolio li {
+    margin: 20px 0;
+}
+
+/* Portfolio Image Styling */
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ffffff; /* White border around images */
+}
+
+/* Resume Download Button */
+.resume a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ff4d4d; /* Button color */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Certificates */
+#certificates img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ffffff; /* White border around images */
+}
+
+/* Blog Post */
+.blog-post {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ffcccb; /* Lighter red on hover */
+}
